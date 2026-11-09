@@ -1,0 +1,79 @@
+방또샵(BangTToShop) 소프트웨어 사용권 계약 (프리웨어 라이선스)
+버전 0.9.1
+Copyright (c) 2026 BangTToShop. All rights reserved.
+
+방또샵(BangTToShop)은 가정용·상업용 구분 없이 누구나 완전히 무료로 사용할
+수 있는 이미지 편집 프로그램입니다. 이 프로그램을 설치하거나 사용하면 아래
+내용에 동의한 것으로 봅니다.
+
+1. 무료 사용
+  가. 개인, 가정, 기업, 관공서, 학교·교육기관, PC방 등 사용 장소와 목적에
+      관계없이 방또샵을 무료로 사용할 수 있습니다.
+  나. 설치할 수 있는 컴퓨터 대수와 사용자 수에 제한이 없습니다.
+  다. 사용 기간 제한, 기능 제한, 유료 전환, 정품 인증이 없습니다.
+  라. 방또샵으로 만들거나 편집한 이미지의 권리는 전적으로 사용자에게
+      있으며, 상업적으로 자유롭게 사용할 수 있습니다.
+
+2. 광고와 개인정보
+  방또샵은 광고를 표시하지 않으며, 사용자의 개인정보나 편집한 이미지,
+  작업 기록을 제작자에게 전송하지 않습니다.
+  모든 편집은 사용자의 컴퓨터에서 처리됩니다. 단, 사용자가 AI 설정에
+  외부 이미지 API의 주소와 키를 직접 입력하고 이미지 생성 등 해당 기능을
+  실행한 경우에 한해, 그 기능에 필요한 프롬프트와 이미지가 사용자가 지정한
+  주소로 전송됩니다.
+  설정과 최근 파일 목록 등은 사용자의 컴퓨터
+  (Windows: %APPDATA%\BangTToShop,
+   macOS: ~/Library/Application Support/BangTToShop)
+  에만 저장됩니다.
+
+3. 재배포
+  가. 설치 파일을 변경하지 않은 원본 그대로 무료로 재배포할 수 있습니다.
+      (웹사이트 게시, 사내 배포, 잡지·매체 부록 수록 등)
+  나. 방또샵 자체를 유료로 판매하거나, 다른 프로그램이나 악성 코드를
+      끼워 넣어 배포할 수 없습니다.
+  다. 재배포할 때 이 사용권 계약과 저작권 표시를 삭제하거나 변경할 수 없습니다.
+
+4. 저작권
+  방또샵 프로그램과 그 디자인에 대한 저작권은 방또샵 제작자에게 있습니다.
+  이 계약은 사용 권한을 부여하는 것이며 저작권을 양도하는 것이 아닙니다.
+  Photoshop은 Adobe Inc.의 상표이며, 방또샵은 Adobe와 관련이 없습니다.
+
+5. 보증의 부인
+  방또샵은 "있는 그대로" 제공됩니다. 제작자는 프로그램의 사용 또는
+  사용할 수 없음으로 인해 발생한 데이터 손실, 영업 손실 등 어떠한 직접·
+  간접 손해에 대해서도 책임지지 않습니다. 중요한 파일은 따로 백업해 두고
+  사용하세요.
+
+6. 함께 포함된 오픈소스 구성요소
+  방또샵에는 아래 오픈소스 소프트웨어가 포함되어 있으며, 각 구성요소는
+  자체 라이선스를 따릅니다. 이 계약은 해당 구성요소의 라이선스를 제한하지
+  않습니다.
+
+  - Electron - MIT License
+      https://github.com/electron/electron
+  - Chromium - BSD 계열 라이선스 (설치 폴더의 LICENSES.chromium.html 참고)
+  - ag-psd (PSD 읽기·쓰기) - MIT License
+      https://github.com/Agamnentzar/ag-psd
+  - PDF.js (PDF·AI 파일 렌더링) - Apache License 2.0
+      https://github.com/mozilla/pdf.js
+  - UTIF.js (TIFF 읽기·쓰기) - MIT License
+      https://github.com/photopea/UTIF.js
+  - fflate (압축 해제) - MIT License
+      https://github.com/101arrowz/fflate
+  - LibRaw-Wasm (카메라 RAW 읽기) - ISC License
+      https://github.com/ybouane/LibRaw-Wasm
+    - 포함된 LibRaw - GNU LGPL v2.1 또는 CDDL v1.0 (이중 라이선스)
+      https://github.com/LibRaw/LibRaw
+  - libheif-js (HEIC 읽기, libheif·libde265 포함)
+      - GNU Lesser General Public License v3.0
+      https://github.com/catdad-experiments/libheif-js
+      https://github.com/strukturag/libheif
+      https://github.com/strukturag/libde265
+
+  libheif-js와 LibRaw는 수정하지 않은 원본 그대로 별도 파일로 포함되어
+  있으며, 사용자는 이를 다른 버전으로 교체할 수 있습니다. LGPL v3 전문은
+  배포 페이지의 LGPL-3.0.txt 에 들어 있고, 이 라이선스가 참조하는 GPL v3
+  전문은 https://www.gnu.org/licenses/gpl-3.0.txt 에서 볼 수 있습니다.
+
+7. 기타
+  이 계약에서 정하지 않은 사항은 대한민국 저작권법 및 관련 법령을 따릅니다.
